@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food  Front</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Aqui começa o home-->
+
+    <header class="max-width bg" id="home">
+        <div class="container">
+            <div class="menu">
+              <div class="logo"></div>
+                <div class="desktop-menu">
+                  <ul>
+                    <li><a href="#home">Home</a>/li>
+                    <li><a href="#about">Sobre</a>/li>
+                    <li><a href="#service">Serviços</a>/li>
+                    <li><a href="#menu">Menu</a>/li>
+                    <li><a href="#contact">Contato</a>/li>
+                  </ul>
+               </div>
+
+        <div class="mobile-menu" onclick="myFuction()">
+            <i class="fa-solid fa-bars"></i>
+            <ul id="mylinks">
+                <li><a href="#home">Home</a>/li>
+                <li><a href="#about">Sobre</a>/li>
+                <li><a href="#service">Serviços</a>/li>
+                <li><a href="#menu">Menu</a>/li>
+                <li><a href="#contact">Contato</a>/li>
+            </ul>
+            </div>
+          </div>  
+        <div class="call">
+            <div class="left"></div>
+            <img src="inicial.jpg" alt="">
+            <div class="right">
+                <h1 class="color-laranja text-gd">Restaurante Food</h1>
+                <h2 class="color-cinza-1 text-md">Experimente a melhor comida da região</h2>
+                <p class="text-pq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rerum facilis nihil accusantium. Ex, id.</p>
+                <button>Ver Menu</button>
+            </div>
+        </div>
+     </div>
+     <button id="back-to-top"></button>
+ </header>
+
+ <!-- Aqui começa o about -->
+
+ <section class="max-width bg" id="about">
+    <div class="container">
+        <div class="call">
+            <div class="left">
+                <span class="text-title color-laranja">Sobre Nós</span>
+                <h2 class="text-md color-cinza-1">Nós cozinhamos a comida mais saborosa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut culpa inventore dolores soluta error.</p>
+                <button>Saiba Mais</button>
+            </div>
+            <div class="right">
+                <img src="foto2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Aqui começa o service -->
+
+ <section class="max-width bg" id="service">
+    <div class="container">
+        <div class="container">
+            <div class="titulo">
+                <span class="text-title color-laranja">Ofertas</span>
+                <h2 class="text-md color-cinza-1">Nossos Serviços</h2>
+            </div>
+            <div class="down">
+                <div class="box">
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <h2>A melhor comida</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, dolor?</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-pizza-slice"></i>
+                    <h2>Comida rápida</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, dolor?</p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-motorcycle text-gd color-laranja"></i>
+                    <h2>Entrega</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, dolor?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Aqui começa o menu-->
+
+ <section class="max-width bg" id="menu">
+    <div class="container">
+        <div class="content">
+            <div class="titulo">
+                <span class="text-title color-laranja">Prato do Dia</span>
+                <h2 class="text-md color-cinza-1">Cardápio do Dia</h2>
+            </div>
+            <div class="down">
+                <div class="box">
+                    <img src="saladacomPepino.jpg" alt="">
+                    <h2 class="color-laranja">Ovos com Pepino</h2>
+                    <p class="text-md">Prato Delicioso</p>
+                    <p>R$ 22,98</p>
+                    </div>
+                    <div class="box">
+                    <img src="pão1.jpg" alt="">
+                        <h2 class="color-laranja">Pão com Salada</h2>
+                        <p class="text-md">Prato Delicioso</p>
+                        <p>R$ 22,98</p>
+                        </div>
+                    <div class="box">
+                        <img src="foto4.jpg" alt="">
+                    <h2 class="color-laranja">Saladas Completa</h2>
+                    <p class="text-md">Prato Delicioso</p>
+                    <p>R$ 22,98</p>
+                    </div>
+                    <div class="box"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Aqui começa o menu -->
+
+ <section class="max-width bg" id="contact">
+    <div class="container">
+        <div class="call">
+            <div class="left">
+              <span class="text-title color-laranja">App</span>
+                <h2 class="text-md color-cinza-1">O aplicativo está disponivel</h2>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus similique atque 
+                     molestiae 
+                        beatae libero accusantium! Perferendis reiciendis pariatur temporibus!</p>
+                         <div class="info">
+                          <img src="Download_on_the_App_Store_Badge.svg.png" alt="">
+                           <img src="googlePlay.png" alt="">
+                       </div>
+                   </div>
+                   <div class="right">
+                    <img src="logo.jpg" alt="">
+                   </div>
+               </div>
+           </div>
+ </section>
+
+ <!--Aqui começa o footer-->
+
+ <footer>
+    <div class="container">
+       <img src="logo.jpg" alt="">
+       <p class="text-pq">copyright 2022 <span class="color-laranja">Front</span>All Rights Reserved</p>
+       <p class="text-pq">Tel: 5514-2020</p>
+    </div>
+ </footer>
+
+ <script>
+
+    //botão back-to-top
+
+    var btn = document.queryselector("#back-to-top");
+
+    btn.addEventlistener("click", function(){
+        window.scrollTo(0,0);
+    })
+
+    //Menu Mobile
+
+    function myFuction(){
+        var x = document.getElementById("mylinks")
+        if (x.style.display === "block"){
+            x.style.display = "none";
+        }else{
+            x.style.display = "block"
+        }
+    }
+
+ </script>
+</body>
+</html>
